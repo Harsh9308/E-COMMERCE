@@ -5,8 +5,9 @@ import { Link } from "react-router-dom";
 
 import PeopleAlsoBought from "../components/PeopleAlsoBought";
 import CartItem from "../components/CartItem";
-import OrderSummary from "../components/orderSummary";
+
 import GiftCouponCard from "../components/GiftCouponCard";
+import OrderSummary from "../components/orderSummary";
 
 const CartPage = () => {
   const { cart } = useCartStore();
